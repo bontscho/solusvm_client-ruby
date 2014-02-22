@@ -71,6 +71,8 @@ module SolusVMClient
         result[k.to_sym] = v
       end
 
+      raise result[:statusmsg] if result[:status] != "success"
+
       result
     end
   end

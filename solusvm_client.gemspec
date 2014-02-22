@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SolusvmClient::VERSION
   spec.authors       = ["bontscho"]
   spec.email         = ["software@bontscho.de"]
-  spec.summary       = %q{Hello World}
-  spec.description   = %q{Hello World Description}
+  spec.summary       = %q{SolusVM Client API Implementation}
+  spec.description   = %q{This Gem implements the SolusVM Client API (http://docs.solusvm.com/client_api) to easily manage your Virtual Private Servers}
   spec.homepage      = "https://github.com/bontscho/solusvm_client-ruby"
   spec.license       = "MIT"
 
