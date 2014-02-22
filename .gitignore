@@ -1,4 +1,6 @@
+.idea
 *.gem
+test.rb
 *.rbc
 .bundle
 .config
