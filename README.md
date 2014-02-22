@@ -131,8 +131,6 @@ result = server.info({ ipaddr: true, hdd: true, mem: true, bw: true })
 #      :ipaddress => "123.123.123.123",
 #         :vmstat => nil
 #  }
-
-
 ```
 
 
