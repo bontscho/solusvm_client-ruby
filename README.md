@@ -28,6 +28,7 @@ Initialize the API URL. For Rails put this into `config/initializers/solusvm_cli
 
 SolusVMClient.setup do |config|
   config.api_url = "https://myserver.com:5656/api/client/command.php"
+  config.verify_ssl = false
 end
 ```
 

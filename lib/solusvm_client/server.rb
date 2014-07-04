@@ -52,6 +52,9 @@ module SolusVMClient
       uri = URI.parse(SolusVMClient.api_url)
       https = Net::HTTP.new(uri.host, uri.port)
       https.use_ssl = true
+      if !SolusVMClient.verify_ssl
+        https.verify_mode = OpenSSL::SSL::VERIFY_NONE
+      end
 
       params = {
           key: self.api_key,
